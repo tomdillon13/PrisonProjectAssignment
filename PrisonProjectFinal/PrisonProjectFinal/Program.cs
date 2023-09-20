@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Linq;
@@ -203,6 +203,7 @@ namespace PrisonProjectFinal
                 if (validationfail == true)
                 {
                     Console.WriteLine("PrisonerNumber can only contain integers.");
+                    Console.ReadLine();
                     UpdateInfo();
                     return;
                 }
@@ -225,6 +226,7 @@ namespace PrisonProjectFinal
                 if (validationfail == true)
                 {
                     Console.WriteLine("CellNumber can only contain integers.");
+                    Console.ReadLine();
                     UpdateInfo();
                     return;
                 }
@@ -279,6 +281,7 @@ namespace PrisonProjectFinal
                 if (validationfail == true)
                 {
                     Console.WriteLine("WardenNumber can only contain integers.");
+                    Console.ReadLine();
                     UpdateInfo();
                     return;
                 }
